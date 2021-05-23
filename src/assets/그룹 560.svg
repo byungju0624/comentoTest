@@ -1,0 +1,17 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="12"
+    height="12"
+    viewBox="0 0 13.414 13.414"
+    fill="#282C30">
+    <defs>
+        <style>
+            .a {
+                fill: none;
+                stroke: #adb5bd;
+                stroke-width: 2px;
+            }
+        </style>
+    </defs>
+    <g transform="translate(-277.793 -16.793)"><line class="a" x2="12" y2="12" transform="translate(278.5 17.5)"/><line class="a" x1="12" y2="12" transform="translate(278.5 17.5)"/></g>
+</svg>

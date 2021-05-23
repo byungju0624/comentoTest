@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import React, { useCallback, useEffect, useState } from "react";
+import axios from "axios";
+import WritingList from "./components/writingList/writingList.jsx";
 
+import Detail from "./components/detail/detail.jsx";
+import { Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="app">
+        <Route path="/" component={WritingList} exact={true} />
+        <Route path={["/:id"]} component={Detail} />
+      </div>
+    </>
   );
 }
 

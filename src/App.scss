@@ -1,0 +1,20 @@
+@import './style/mixIn';
+.app{
+    display: flex;
+    
+    font-family: 'Spoqa Han Sans';
+}
+
+.myName{
+    display: flex;
+    margin-left: 24.375rem;
+    margin-top: 1.4375rem;
+    font-size: 1rem;
+}
+@include mobile {
+    .myName{
+        display: flex;
+        margin-left: .9375rem;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,25 @@
+@import '../../style/mixIn';
+
+.button {
+    
+    justify-content: center;
+    align-items: center;
+    width: 14.6875rem;
+    height: 3.75rem;
+    background-color: #00c854;
+    color: white;
+    font-weight: bold;
+   font-size: 1.375rem;
+    border-style: none;
+    border-radius: 10px;
+   margin: 4.5625rem 3.1875rem 0 24.375rem;
+  
+    &:hover {
+        cursor: pointer;
+    }
+}
+@include mobile{
+    .container{
+        display: none;
+    }
+}
